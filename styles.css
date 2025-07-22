@@ -1,0 +1,33 @@
+:root {
+  --radial-gradient: linear-gradient(90deg,rgba(0, 11, 28, 1) 0%, rgba(0, 28, 69, 1) 50%, rgba(0, 50, 120, 1) 100%);
+  --arp-white: #ebf2ff;
+  --arp-black: #00050d;
+}
+
+html, body {
+  height: 100%;
+  min-height: 100vh;
+}
+
+body {
+  background: var(--radial-gradient);
+  color: var(--arp-black);
+  margin: 0;
+  padding: 0;
+}
+
+.hero * {
+  color: var(--arp-white) !important;
+}
+
+.zitat * {
+  color: var(--arp-black) !important;
+}
+
+.footer * {
+  color: var(--arp-white) !important;
+}
+
+.features * {
+  color: var(--arp-white) !important;
+}
