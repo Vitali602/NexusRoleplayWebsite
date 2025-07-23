@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>ARP Team</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
           <img
@@ -129,7 +129,11 @@
     <section class="jumbotron">
       <div class="container my-5">
         <div class="p-5 text-center bg-body-tertiary rounded-3">
-          <img src="../assets/images/austriaRoleplayLogoTransparentNoText.png" alt="Austria Roleplay Logo" class="img-fluid mb-4" />
+          <img
+            src="../assets/images/austriaRoleplayLogoTransparentNoText.png"
+            alt="Austria Roleplay Logo"
+            class="img-fluid mb-4 jumbotron-logo"
+          />
           <h1 class="text-body-emphasis">
             Unser Team – Dein Rückhalt für authentisches Roleplay
           </h1>
@@ -150,7 +154,31 @@
       </div>
     </section>
     <section class="team-cards">
-      <div class="my-4 mx-4 row row-cols-1 row-cols-md-3 g-4">
+      <div class="my-4 mx-4 row row-cols-1 row-cols-md-3 g-5">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://cdn.discordapp.com/avatars/841635692035047475/2d13dc52465002110677383e23ea52fe.webp?size=2048"
+              class="card-img-top"
+              alt="Vitali profile picture"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Developer • Tiki2000</h5>
+              <p class="card-text">
+                Tiki2000 ist verantwortlich für die technische Umsetzung und
+                Pflege der Webseite von Austria Roleplay. Mit einem Blick fürs
+                Detail und klarem Code sorgt er für einen reibungslosen
+                digitalen Zugang zur Welt des Servers.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"
+                >Motto: „Code ist mehr als Technik – er ist das Tor zur
+                Immersion.“</small
+              >
+            </div>
+          </div>
+        </div>
         <div class="col">
           <div class="card h-100">
             <img
@@ -376,12 +404,19 @@
           class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
           aria-label="Bootstrap"
         >
-          <svg class="bi" width="30" height="24" aria-hidden="true">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
+          <img
+            src="../assets/images/austriaRoleplayLogoTransparentNoText.png"
+            alt="Logo"
+            width="40"
+            height="40"
+            class="mx-1"
+          />
         </a>
         <span class="mb-3 mb-md-0 text-body-secondary"
-          >© 2025 Austria Roleplay</span
+          >© 2025 Austria Roleplay. Developed by Tiki. All rights reserved.
+          <a href="./pages/datenschutzerklärung.html"
+            >Datenschutzerklärung</a
+          ></span
         >
       </div>
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">

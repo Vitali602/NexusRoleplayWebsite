@@ -31,3 +31,12 @@ body {
 .features * {
   color: var(--arp-white) !important;
 }
+
+.privacy-policy * {
+  color: var(--arp-white) !important;
+}
+
+.jumbotron-logo {
+  max-height: 40vh;
+  width: auto;
+}
